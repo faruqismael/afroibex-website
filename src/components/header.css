@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* height: 10vh; */
+}
+
+.header__logo {
+  width: 106.667px;
+  height: 80px;
+}
+
+.header__center {
+}
+
+.header__menu {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(112, 112, 112, 1);
+  margin: 0 10px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
