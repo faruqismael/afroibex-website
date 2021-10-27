@@ -22,3 +22,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.comingSoon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed;
+}
+.comingSoon > h1 {
+  font-family: fantasy;
+  font-size: 60px;
+  color: #52392f;
+}

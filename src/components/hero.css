@@ -32,3 +32,23 @@
 .hero__text > button {
   margin: 5vh 0 0 0;
 }
+
+#serviceName {
+  transition: 0.5s all;
+  opacity: 0.5;
+  animation-name: "slide";
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  transform: translateX(-100);
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(100);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-100);
+    opacity: 1;
+  }
+}
